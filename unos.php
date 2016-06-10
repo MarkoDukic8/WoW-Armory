@@ -4,12 +4,13 @@
 <html>
 <head>
     <title>WoW Amory</title>
+    <link href="css/template.css" rel="stylesheet">
 </head>
 
 <body>
 <h1>
     Characters
-</h1>
+
 
 <p>
 <form action="insert.php" method="post">
@@ -24,9 +25,11 @@
     <input type="submit" value="Unesi character-a">
 </form>
 </p>
-
+</h1>
 <p>
-    <a href="unos.php">Unos novog character-a</a>
+<form action="index.php" method="post">
+    <input type="submit" value="Povratak na pocetnu">
+</form>
 </p>
 </body>
 </html>

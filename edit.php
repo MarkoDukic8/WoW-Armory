@@ -4,12 +4,13 @@
 <html>
 <head>
     <title>WoW Armory</title>
+    <link href="css/template.css" rel="stylesheet">
 </head>
 
 <body>
 <h1>
     Characters
-</h1>
+
 
 <?php
 $sql = "SELECT * FROM Characters WHERE id=" . $_GET['id'];
@@ -31,9 +32,14 @@ $wow = $result->fetch_assoc();
     <input type="submit" value="Izmijeni charactera">
 </form>
 </p>
-
+</h1>
 <p>
-    <a href="unos.php">Unos novog charactera</a>
+<form action="unos.php" method="post">
+    <input type="submit" value="Unos novog charactera">
+</form>
+<form action="index.php" method="post">
+    <input type="submit" value="Povratak na pocetnu">
+</form>
 </p>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body>
 <h1>
     Prijava
-</h1>
+
 
 <p>
 
@@ -25,10 +25,10 @@
     Korisnicko ime:<br>
     <input type="text" name="username"><br>
     Lozinka:<br>
-    <input type="text" name="password"><br>
+    <input type="password" name="password"><br>
     <input type="submit" value="Prijava">
 </form>
 </p>
-
+</h1>
 </body>
 </html>

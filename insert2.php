@@ -9,15 +9,15 @@
 
 <body>
 <h1>
-    Characters
+    Registracija
 </h1>
 
 <p>
     <?php
-    $sql = "DELETE FROM Characters WHERE id=" . $_GET['id'];
+    $sql = "INSERT INTO users (username, password, name, surname) VALUES ('" . $_POST['username'] . "', '" . $_POST['password'] . "', '" . $_POST['name'] . "', '" . $_POST['surname'] . "')";
     $result = $conn->query($sql);
 
-    echo('Character je obrisan!<br>');
+    echo('Registracija je uspjesna!<br>');
     ?>
 <form action="index.php" method="post">
     <input type="submit" value="Povratak na pocetnu">

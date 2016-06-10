@@ -26,11 +26,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="unos.php">Unos novog charactera</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Početna</a></li>
+                <li class="active"><a href="login.php">Odjava</a></li>
+                <li class="active"><a href="unos.php">Unos novog charactera</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

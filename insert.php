@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>WoW Armory</title>
+    <link href="css/template.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,8 +18,12 @@
     $result = $conn->query($sql);
 
     echo('Character je unesen!<br>');
-    echo('<a href="index.php">Povratak na prikaz charactera</a>');
     ?>
+<form action="unos.php" method="post">
+    <input type="submit" value="Unesite drugog charactera">
+</form><form action="index.php" method="post">
+    <input type="submit" value="Povratak na pocetnu">
+</form>
 </p>
 </body>
 </html>
