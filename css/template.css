@@ -30,7 +30,9 @@ p
 table, th, tr, td
 {
     border: 2px solid red;
+    font-size: large;
     background-color: black;
+    text-align: center;
 }
 table
 {
